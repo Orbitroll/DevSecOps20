@@ -131,7 +131,9 @@ ps aux | grep shlomi
 **Write your commands here**:
 ```bash
 # Your commands:
-
+echo $PATH
+echo $HOME
+echo $?
 
 
 
@@ -148,7 +150,8 @@ ps aux | grep shlomi
 **Write your commands here**:
 ```bash
 # Your commands:
-
+date >> timestamp.txt
+whoami >> timestamp.txt
 
 
 
