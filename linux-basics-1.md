@@ -133,7 +133,7 @@ ps aux | grep shlomi
 # Your commands:
 echo $PATH
 echo $HOME
-echo $?
+exit code 0
 
 
 
@@ -168,7 +168,7 @@ whoami >> timestamp.txt
 **Write your commands here**:
 ```bash
 # Your commands:
-
+ls PIZZA 1> food.log 2>error.log
 
 
 
@@ -185,7 +185,8 @@ whoami >> timestamp.txt
 **Write your commands here**:
 ```bash
 # Your commands:
-
+ls /home /nonexistent 1> success.txt 2> errors.txt
+exit code = 2
 
 
 
