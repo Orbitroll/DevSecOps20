@@ -20,8 +20,7 @@
 **Write your commands here**:
 ```bash
 # Your commands:
-
-
+shlomi
 ```
 
 ---
@@ -34,7 +33,7 @@
 **Write your command here**:
 ```bash
 # Your command:
-
+ls -lha
 
 ```
 
@@ -56,7 +55,7 @@ workspace/
 
 **Write your command here**:
 ```bash
-# Your command:
+/mkdir -p workspace/projects/web workspace/projects/mobile workspace/Documents
 
 
 ```
@@ -74,7 +73,8 @@ workspace/
 **Write your commands here**:
 ```bash
 # Your commands:
-
+echo This is my workspace > readme.txt
+mv readme.txt /workspace/documents/info.txt
 
 
 
@@ -89,9 +89,11 @@ workspace/
 3. Show information about the `nano` package (don't install it)
 
 **Write your commands here**:
-```bash
+```bashapt show
 # Your commands:
-
+sudo apt update
+apt serch text editor
+apt show nano
 
 
 
@@ -110,7 +112,9 @@ workspace/
 **Write your commands here**:
 ```bash
 # Your commands:
-
+ps aux
+ps -l
+ps aux | grep shlomi
 
 
 
